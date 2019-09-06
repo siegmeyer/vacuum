@@ -1384,7 +1384,9 @@ module.exports = function spread(callback) {
 
 
 var bind = __webpack_require__(/*! ./helpers/bind */ "./node_modules/axios/lib/helpers/bind.js");
-var isBuffer = __webpack_require__(/*! is-buffer */ "./node_modules/axios/node_modules/is-buffer/index.js");
+
+var isBuffer = __webpack_require__(/*! is-buffer */ "./node_modules/is-buffer/index.js");
+
 
 /*global toString:true*/
 
@@ -1688,6 +1690,8 @@ module.exports = {
 
 /***/ }),
 
+<<<<<<< HEAD
+=======
 /***/ "./node_modules/axios/node_modules/is-buffer/index.js":
 /*!************************************************************!*\
   !*** ./node_modules/axios/node_modules/is-buffer/index.js ***!
@@ -1710,6 +1714,7 @@ module.exports = function isBuffer (obj) {
 
 /***/ }),
 
+>>>>>>> develop
 /***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/ExampleComponent.vue?vue&type=script&lang=js&":
 /*!***************************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/ExampleComponent.vue?vue&type=script&lang=js& ***!
@@ -6188,6 +6193,31 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+<<<<<<< HEAD
+/***/ "./node_modules/is-buffer/index.js":
+/*!*****************************************!*\
+  !*** ./node_modules/is-buffer/index.js ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/*!
+ * Determine if an object is a Buffer
+ *
+ * @author   Feross Aboukhadijeh <https://feross.org>
+ * @license  MIT
+ */
+
+module.exports = function isBuffer (obj) {
+  return obj != null && obj.constructor != null &&
+    typeof obj.constructor.isBuffer === 'function' && obj.constructor.isBuffer(obj)
+}
+
+
+/***/ }),
+
+=======
+>>>>>>> develop
 /***/ "./node_modules/jquery/dist/jquery.js":
 /*!********************************************!*\
   !*** ./node_modules/jquery/dist/jquery.js ***!
@@ -49366,8 +49396,13 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
+<<<<<<< HEAD
+__webpack_require__(/*! C:\Users\groth\dev\laravel\vacuum\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\Users\groth\dev\laravel\vacuum\resources\sass\app.scss */"./resources/sass/app.scss");
+=======
 __webpack_require__(/*! /home/vagrant/vacuum/resources/js/app.js */"./resources/js/app.js");
 module.exports = __webpack_require__(/*! /home/vagrant/vacuum/resources/sass/app.scss */"./resources/sass/app.scss");
+>>>>>>> develop
 
 
 /***/ })
