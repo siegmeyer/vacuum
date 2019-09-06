@@ -14,3 +14,5 @@
 Auth::routes();
 
 Route::get('/', 'HomeController@index')->name('home');
+
+Route::post('/forms', 'FormController@create')->name('form');
